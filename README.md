@@ -2,7 +2,7 @@
 My vim configuration
 
 ### Plugins:
-
++ valloric/youcompleteme
 + scrooloose/nerdtree
 + kien/ctrlp.vim
 + brooth/far.vim

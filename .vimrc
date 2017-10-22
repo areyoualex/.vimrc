@@ -17,6 +17,7 @@ set hidden
 
 call plug#begin()
 
+Plug 'valloric/youcompleteme'
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
 Plug 'brooth/far.vim'
