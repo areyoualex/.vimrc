@@ -26,6 +26,7 @@ Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-surround'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
 call plug#end()
 
 let g:airline_theme='bubblegum'
@@ -64,3 +65,6 @@ let g:airline_right_alt_sep = ''
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
+
+"Suppress garbage characters
+:set t_RV=
