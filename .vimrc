@@ -17,7 +17,7 @@ set hidden
 
 call plug#begin()
 
-Plug 'valloric/youcompleteme'
+Plug 'valloric/youcompleteme', { 'do': './install.py --all' }
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
 Plug 'brooth/far.vim'
