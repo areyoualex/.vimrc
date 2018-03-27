@@ -1,6 +1,8 @@
 # vimconfig
 My vim configuration
 
+Using [vim-plug](https://github.com/junegunn/vim-plug#installation)
+
 ### Plugins:
 + valloric/youcompleteme
 + scrooloose/nerdtree
