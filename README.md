@@ -1,16 +1,4 @@
-# vimconfig
-My vim configuration
+# alex's dotfiles
+hello there. these are my dotfiles.
 
-Using [vim-plug](https://github.com/junegunn/vim-plug#installation)
-
-### Plugins:
-+ valloric/youcompleteme
-+ scrooloose/nerdtree
-+ kien/ctrlp.vim
-+ brooth/far.vim
-+ tpope/vim-fugitive
-+ Xuyuanp/nerdtree-git-plugin
-+ scrooloose/syntastic
-+ tpope/vim-surround
-+ bling/vim-airline
-+ vim-airline/vim-airline-themes
+feel free to look around
