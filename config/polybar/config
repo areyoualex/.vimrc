@@ -110,8 +110,8 @@
 	adapter       = AC0
 	poll-interval = 5
 
-	format-full = <ramp-capacity> <label-full>
-	format-charging = <ramp-capacity> <label-charging>
+	format-full = <label-full>
+	format-charging = <label-charging>
 	format-discharging = <ramp-capacity> <label-discharging>
 
 	ramp-capacity-0 = 
@@ -120,7 +120,7 @@
 	ramp-capacity-3 = 
 	ramp-capacity-4 = 
 	ramp-capacity-foreground	= #c4f5d8
-	ramp-capacity-padding-left	= 5
+	ramp-capacity-padding-left	= 4
 
 	label-charging-foreground = #c4f5d8
 	label-discharging-foreground = #c4f5d8
@@ -133,13 +133,13 @@
 	label-charging-padding-right	= 4
 	label-discharging-padding-right	= 4
 	label-full-padding-right	= 4
-	label-charging-padding-left	= 2
+	label-charging-padding-left	= 3
 	label-discharging-padding-left	= 2
 	label-full-padding-left		= 2
 
-	label-charging            = "%percentage%%"
+	label-charging            = "⚡  charging: %percentage%%"
 	label-discharging            = "%percentage%%"
-	label-full            = "%percentage%%"
+	label-full            = " 🔋  %percentage%%"
 
 [module/volume]
 	type	= internal/pulseaudio
@@ -151,6 +151,7 @@
 	label-muted		= muted  
 	label-muted-font	= 2
 	label-muted-foreground	= #bce3f5
+	label-muted-padding-left= 5
 
 	ramp-volume-0		= 
 	ramp-volume-1		= 
@@ -178,10 +179,12 @@
 	label-padding-left	= 2
 
 [module/wifi]
-	type		= internal/network
+	type  = internal/network
 	interface	= wlan0
 	
 	format-connected	= <ramp-signal> <label-connected>
+	format-disconnected	= 🌚 <label-disconnected>
+
 
 	label-connected			= %essid%
 	label-connected-font		= 2
