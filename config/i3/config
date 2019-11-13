@@ -7,6 +7,8 @@
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 bindsym $mod+shift+x exec betterlockscreen -l dim
+bindcode 232 exec xbacklight -dec 5
+bindcode 233 exec xbacklight -inc 5
 
 # i3 config file (v4)
 #
