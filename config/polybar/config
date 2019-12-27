@@ -38,7 +38,8 @@
 	font-0	= "Inter:size=14;3"	
 	font-1	= "Inter:style=bold:size=14;3"	
 	font-2	= "Font Awesome 5 Free:size=14;3"
-	font-3	= "emoji:scale=4;3"
+	font-3	= "Twemoji:scale=4;3"
+	font-4	= "emoji:scale=4;3"
 
 	dpi	= 0
 	width	= 100%
@@ -84,6 +85,7 @@
 
 	label-focused-font = 2
 	label-focused-underline	= #ff6176
+	label-urgent-underline	= #78faae
 
 	label-focused-background	= #121212
 	label-unfocused-background	= #313131
@@ -92,7 +94,8 @@
 
 	label-focused-padding	= 3
 	label-unfocused-padding	= 3
-	label-visible-padding	= 3 label-urgent-padding	= 3
+	label-visible-padding	= 3
+  label-urgent-padding	= 3
 	label-focused-padding-right	= 4
 	label-unfocused-padding-right	= 4
 	label-visible-padding-right	= 4
