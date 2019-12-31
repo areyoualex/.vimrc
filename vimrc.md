@@ -5,6 +5,7 @@ Using [vim-plug](https://github.com/junegunn/vim-plug#installation)
 
 ### Plugins:
 + valloric/youcompleteme
+  _(Note: must install with [this process](https://github.com/ycm-core/YouCompleteMe#installation))_
 + scrooloose/nerdtree
 + kien/ctrlp.vim
 + brooth/far.vim
