@@ -3,9 +3,9 @@ set encoding=utf-8
 
 filetype plugin indent on
 " show existing tab with 2 spaces width
-set tabstop=2
+set tabstop=4
 " when indenting with '>', use 2 spaces width
-set shiftwidth=2
+set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
 
@@ -37,6 +37,13 @@ Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
+" YCM highlighting
+highlight YcmErrorLine ctermbg=52
+highlight YcmErrorSection ctermbg=124
+highlight YcmWarningLine ctermbg=58
+highlight YcmWarningSection ctermbg=172
+
+" Airline stuff
 let g:airline_theme='bubblegum'
 
 if !exists('g:airline_symbols')

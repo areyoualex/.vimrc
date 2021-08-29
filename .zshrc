@@ -1,14 +1,20 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-export DEFAULT_USER="alex"
+export DEFAULT_USER="niku"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/alex/.oh-my-zsh"
+export ZSH="/home/niku/.oh-my-zsh"
 
 if [[ $TILIX_ID ]]; then
         source /etc/profile.d/vte.sh
 fi
+
+export GPG_TTY=$(tty)
+
+# gpg-agent stuff
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+gpgconf --launch gpg-agent
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
